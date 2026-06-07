@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: system-ui, -apple-system, sans-serif;
+}
+/* Estilos globais */
+body {      
+    line-height: 1.6;
+    background-color: #F5F5F5;
+    color: #333333;
+}
+
+main{
+    padding: 2rem 0;
+}
+/* header */
+header{ 
+    background-color: #1A1A1A;
+    text-align: center;
+    color: #1A1A1A;
+    padding: 15px ;
+}
+
+header h1{
+    font-size: 3.25rem;
+    margin-bottom: 5px;
+    color: white;
+}
+
+header h2{
+    font-size: 1.75rem;
+    color: #ffffff;
+}
+/* container */
+.container{
+    width: 90%;
+    max-width:1000px;  
+    margin: 0 auto;
+}
+
+/* nav */
+nav {
+    background-color: #B22222;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: background-color 0.3s;
+    font-size: 1.25rem;
+
+}
+
+nav a:hover {
+    background-color: rgba(73, 14, 14, 0.867);
+}
+/* cards */
+.card{
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 1000px;
+
+}
+
+.card h2 {
+    color: #C0392B;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 0.5rem;
+}
+
+.card p {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: justify;
+}
+.card ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card ul li {
+    margin-bottom: 0.5rem;
+}
+/* footer */
+footer{
+    background-color: #1A1A1A;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color:#3498db;
+}
